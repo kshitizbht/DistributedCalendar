@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Distributed Calendar ..::Administrator::..</title>
+	<link href="./css/calendar.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="mainContainer">
+	<div id="header">
+		<div id="headerImage">
+		</div>
+	</div>
+	<div id="contentContainer">
+		<h1>Administrator Page</h1>
+		<hr/>
+		<div id="nodeStartStopButtons">
+			<h2>Start/Stop Node</h2>
+			<form>
+			<label for="nodeJoin">Enter one of the node IPs</label>
+			<input name="nodeJoin" type="text" placeholder="192.168.1.8" class="textBox"/><br/>
+			<input type="button" class="button" value="Start Node"/>
+			<input type="button" class="button" value="Graceful shutdown"/>
+			</form>
+		</div>
+		<hr/>
+<!--		<div id="joinChord">
+		<h2>Join Chord</h2>	
+		<form>
+		<label for="successor">Enter Successor of this node IP</label><input name="successor" type="text" value="192.168.1.8" placeholder="192.168.1.8" class="textBox"/><br/>
+		<label for="pre">Enter Predecessor of this node IP</label><input name="pre" type="text" value="" placeholder="192.168.1.8" class="textBox"/><br/>
+		<input type="submit" class="button"  value="Join Chord"/>
+		<input type="reset"  class="button" value="Clear data"/>
+		
+		</form>
+		</div>
+-->
+		<hr/>
+		<div id="nodeInforation">
+		<h2>Information about this node</h2>
+		Node ID : 8<br/>
+		Node IP : 192.168.1.8<br/>
+		Joined to Chord : False<br/>
+		Successor IP: 192.168.1.8<br/>
+		Predecessor IP: 192.168.1.8<br/>
+		Keys::<br/>
+		<ul>
+			<li>kbhattar</li>
+			<li>testuser</li>
+			<li>tom</li>
+		</ul>
+		</div>
+		
+		</div>
+		<hr/>
+		<div id="chordGraph">
+			<div id="nodeInforation">
+			<div id="h3class">Successor of Node i</div>
+			Node ID/IP : 9 / IP : 192.168.1.9<br/>
+			Successor IP: 192.168.1.10<br/>
+			Predecessor IP: 192.168.1.8<br/>
+			Keys::<br/>
+			<ul>
+				<li>kbhattar</li>
+				<li>testuser</li>
+			</ul>
+			</div>
+			
+		</div>
+	</div>
+	<div class="clear"></div>
+	<hr/>
+	<div id="footer">(c)Copyright kb</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,320 @@
+body{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	/*background-image:url('../images/gradient2.jpg');
+	background-repeat:repeat-x;*/
+	background:#f2f2f2;
+}
+h1{
+	color:#006699;
+	font-size:15px;
+}
+h2{
+	color:#006699;
+	font-size:14px;
+}
+h3{
+	color:#006699;
+	font-size:12px;
+	font-weight:normal;
+	margin-left:10px;
+}
+#h3class{
+	color:#006699;
+	font-size:12px;
+	font-weight:normal;
+}
+#mainContainer{
+	margin: 5px auto;
+	/*text-align: left;*/
+	padding:5px;
+	border:1px solid #aaaaaa;
+	width:650px;
+	background:white;
+}
+#header{
+	font-size:22px;
+	background-image:url('../images/Untitled2.png');
+	background-repeat:no-repeat;
+	width:640px;
+	height:111px;
+}
+#infoContent2{
+	margin:10px;
+	display:block;
+	width:400px;
+	height:220px;
+}
+.weekHead{
+	width:640px;
+	height:15px;
+	margin:5px;
+}
+.days{
+	display:inline-block;
+	width:85px;
+	height:15px;
+	border:1px solid #aaaaaa;
+}
+.week{
+	width:640px;
+	height:50px;
+	margin:5px;
+	clear:left;
+}
+.node{
+	display:inline-block;
+	width:125px;
+	height:75px;
+	border:1px solid #aaaaaa;
+	float:left;
+	margin:2px;
+	overflow:hidden;
+}
+.day{
+	display:inline-block;
+	width:85px;
+	height:50px;
+	border:1px solid #aaaaaa;
+	float:left;
+	margin:2px;
+	overflow:hidden;
+}
+.dayInactive{
+	display:inline-block;
+	width:85px;
+	height:50px;
+	border:1px solid #aaaaaa;
+	background:#D4C3E6;
+	float:left;
+	margin:2px;
+}
+.dayInvalid{
+	display:inline-block;
+	width:85px;
+	height:50px;
+	border:1px solid #aaaaaa;
+	background:gray;
+	float:left;
+	margin:2px;
+}
+.eventPublic{
+	border-radius:2px;
+	border:1px solid #006699;
+	height:12px;
+	overflow:hidden;
+	display:inline-block;
+	color:red;
+	margin:2px;
+}
+.eventPrivate{
+	border-radius:2px;
+	border:1px solid #006699;
+	height:12px;
+	overflow:hidden;
+	display:inline-block;
+	color:black;
+	margin:2px;
+}
+.eventGroup{
+	border-radius:2px;
+	border:1px solid #006699;
+	height:12px;
+	overflow:hidden;
+	display:inline-block;
+	color:green;
+	margin:2px;
+}
+.eventOpen{
+	height:12px;
+	overflow:hidden;
+	display:inline-block;
+	color:blue;
+	margin:2px;
+}
+.timeFrame{
+	clear:left;
+
+}
+.time{
+	float:left;	
+	display:block;
+	width:100px;
+	height:40px;
+	margin-left:10px;
+	border:1px solid #aaaaaa;
+}
+.mainEvent{
+	float:left;
+	display:block;
+	width:500px;
+	height:40px;
+	border:1px solid #aaaaaa;
+	color:#006699;
+}
+#distCalendarInformation{
+	float:left;
+	width:70%;	
+	padding:5px;
+}
+
+#login{
+	float:left;
+	font-family:Verdana, sans-serif;
+	width:25%;
+	padding:5px;
+	border:1px solid #ccd9ff;
+}
+#infoHead{
+	color:#006699;
+	font-size:15px;
+	padding-left:10px;
+}
+#infoContent{
+	padding-left:10px;
+	display:block;
+}
+#menu{
+	left:0;
+	margin-top:10px;
+}
+#menu ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#menu li {
+	display:inline;
+	padding:10px;
+}
+.clear{
+	clear:both;
+}
+
+#headerImage{
+	padding:10px;
+}
+input {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+}
+.button{
+	width:auto;
+	padding:5px;
+	border:1px solid #aaaaaa;
+	background-color:white;	
+}
+.button:hover{
+	width:auto;
+	padding:5px;
+	border:1px solid #aaaaaa;
+	background-color:#ccd9ff;
+}
+.ebutton{
+	width:auto;
+	padding:5px;
+	border:1px solid #aaaaaa;
+	background-color:white;	
+	float:right;
+}
+.ebutton:hover{
+	width:auto;
+	padding:5px;
+	border:1px solid #aaaaaa;
+	background-color:#ccd9ff;
+}
+.textBox{
+	border:1px solid #aaaaaa;
+	font:"Times new roman";
+	font-weight:lighter;
+}
+
+a{
+	text-decoration:none;
+	color:#006699;
+}
+a:hover {
+	text-decoration:underline;
+	color:#006699;
+}
+#logout{
+	text-decoration:none;
+	float:right;
+	color:red;
+}
+#logout:hover {
+	text-decoration:underline;
+}
+hr{
+	background-color:#aaaaaa;
+	margin-top:10px;
+	margin-bottom:10px;
+	height:1px;
+	border-style:none;
+	
+}
+.floatleft{
+	float:left;
+}
+.outline{
+	border:1px solid #ccd9ff;
+	padding:5px;
+}
+#footer{
+	font:Tahoma;
+	font-size:9px;
+	color:#aaaaaa;
+}
+#verticalBar{
+	width:1px;
+	background-color:#aaaaaa;
+	margin:5px;
+	height:200px;
+	float:left;
+}
+#contentContainer{
+	margin-top:10px;
+}
+#warning{
+	font-color: red;
+	font-style:italic;
+}
+#scheduleForm{
+	width:200px;
+}
+.selectOption{
+	width:auto;
+	padding:5px;
+	border:1px solid #aaaaaa;
+	background-color:white;	
+}
+.selectOption2{
+	width:auto;
+	padding:2px;
+	border:1px solid #aaaaaa;
+	background-color:white;	
+	font-style:italic;
+}
+#notification{
+	display:none;
+	float:right;
+	height:20px;
+	padding:2px 8px;
+	background-color: #fefefe;
+	border:2px solid #006699;
+	border-radius:15px;
+    text-align:center;
+}
+
+#joinForm{
+	float:left;
+	display:inline-block;
+}
+#shutdownForm{
+	float:left;
+	display:inline-block;
+}
+#loadDBForm{
+	float:left;
+	display:inline-block;
+}

@@ -1,0 +1,22 @@
+<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <version>1.6</version>
+        <configuration>
+            <target>
+                <taskdef name="deploy" classname="org.apache.catalina.ant.DeployTask"/>
+                <deploy url="http://192.168.1.2:8080/manager" username="kbhattar" password="regedit"
+                        path="/app-path" war="file:${project.build.directory}/${project.build.finalName}.${project.packaging}" update="true"/>
+
+                <deploy url="http://192.168.1.7:8080/manager" username="kbhattar" password="regedit"
+                        path="/app-path" war="file:${project.build.directory}/${project.build.finalName}.${project.packaging}" update="true"/>
+            </target>
+        </configuration>
+        <dependencies>
+            <dependency>
+                <groupId>tomcat</groupId>
+                <artifactId>catalina-ant</artifactId>
+                <version>6.0.29</version>
+            </dependency>
+        </dependencies>
+</plugin>

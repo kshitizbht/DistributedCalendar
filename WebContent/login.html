@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Distributed Calendar</title>
+	<link href="./css/calendar.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="mainContainer">
+	<div id="header">
+		<div id="headerImage">
+			<!--<img class="centerImage" src="./images/logo.png" />
+			-->
+		</div>
+	</div>
+	<div id="contentContainer">
+		<div id="distCalendarInformation">
+			<div id="infoHead">Distributed Calendar for Workgroups</div>
+			<div id="infoContent">
+			Our features includes:
+				<ul>
+				<li>Remote Calendar Access</li>
+				<li>Workgroups collaboration</li>
+				<li>Viewing colleage calendar</li>
+				<li>Creating group events</li>
+				<li>We have private,public,group,and open events as well.</li>
+				</ul>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href="/DistCalendar/rest/admin">Calander Manager (Set up nodes)</a></li>
+					<li><a href="signup.html">Sign up for account</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="login" align="center">
+			<div id="distCalendarLoginInfo">Calendar Login</div>			
+			<!-- <form name="loginform" method="post" action="/DistCalendar/rest/login">
+			 -->
+			 <form name="loginform" method="get" action="/DistCalendar/rest/login">
+			<div id="username">
+				<input type="text" name="username" size=25 class="textBox" placeholder="UserName"/>
+			</div>
+			<div id="password">
+				<input type="password" name="password" size=25 class="textBox" placeholder="Password"/>
+			</div>
+			<div id="warning">
+			</div>
+			<span id="loginButton">
+				<input type="submit" value="Login" class="button"/>
+			</span>			
+			<span id="signUp">
+				<a href="signup.html">Sign up</a>
+			</span>
+			</form>	
+		</div>
+	</div>
+	<div class="clear"></div>
+	<hr/>
+	<div id="footer">(c)Copyright kb</div>
+</div>
+</body>
+</html>
